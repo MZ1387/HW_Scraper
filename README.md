@@ -13,7 +13,7 @@ In this assignment I created a web app that lets users leave comments on the lat
 - request
 
 ## Code Explaination
-- Whenever a user visits your site, the app will scrape stories from BuzzFeedNews.
+- Whenever a user visits the site, the app will scrape stories from BuzzFeedNews.
 - I used Cheerio to grab the site content and Mongoose to save it to my MongoDB database.
 - All users can leave comments on the stories collected. They can also delete whatever comments they want removed. All stored comments are also visible to every user.
 
