@@ -1,0 +1,17 @@
+<div class="container">
+		<div class="header">
+				<div>
+						<ul class="list-inline nav nav-pills pull-right">
+								<li id="scrape" role="presentation"> <a href="#">SCRAPE</a></li>
+						</ul>
+				</div>
+				<h1 style="font-family:Trykker, serif;color:#ee3322;">BuzzFeed</h1></div>
+		<hr>
+		{{#each articles}}
+		<div class="well"><i class="glyphicon glyphicon-plus btn pull-right"></i>
+				<h3>{{this.title}}</h3>
+				<p>{{this.text}}</p>
+		</div>
+		{{/each}}
+</div>
+<!-- <script type="text/javascript" src="/assets/js/scrape.js"></script> -->
